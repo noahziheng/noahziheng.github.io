@@ -1,5 +1,7 @@
 # noah-page
 
+My personal page, created by Vue.js.
+
 ## Project setup
 ```
 yarn install
