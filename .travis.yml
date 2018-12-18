@@ -3,8 +3,7 @@ node_js:
   - lts/*
 script: yarn build
 before_install:
-  - touch ~\/.ssh/id_tencent_cloud
-  - openssl aes-256-cbc -K $encrypted_b68f2d47b480_key -iv $encrypted_b68f2d47b480_iv -in id_tencent_cloud.enc -out ~\/.ssh/id_tencent_cloud -d
+  - openssl aes-256-cbc -K $encrypted_b68f2d47b480_key -iv $encrypted_b68f2d47b480_iv -in id_tencent_cloud.enc -out ~/.ssh/id_tencent_cloud -d
   - chmod 600 ~/.ssh/id_tencent_cloud
 deploy:
   provider: pages
