@@ -1,0 +1,39 @@
+{
+  "name": "高梓恒",
+  "name_sub": "Noah Gao",
+  "desc": "一个 Web 开发者，偶尔还搞搞物联网",
+  "aboutme": "关于我",
+  "tip_weixin": "欢迎关注我的微信公众号～",
+  "lost": "您已迷失！",
+  "wait": "正在跳转，稍等片刻～",
+  "education": {
+    "title": "教育经历",
+    "tust_name": "天津科技大学",
+    "tust_desc": "本科 自动化专业"
+  },
+  "work": {
+    "title": "工作经验",
+    "ali_name": "阿里巴巴集团",
+    "ali_desc": "前端工程师，天猫技术部",
+    "ali_tag": "尚未入职",
+    "xcf_name": "北京下厨房科技有限公司",
+    "xcf_desc": "前端开发实习生",
+    "xcf_tag": "在职",
+    "ali_intern_name": "阿里巴巴集团",
+    "ali_intern_desc": "实习前端工程师，天猫技术部"
+  },
+  "paper": {
+    "title": "学术论文",
+    "cpci_name": "嵌入式 Linux 环境与单片机系统通信实例研究 -- 以树莓派和STM32为例",
+    "cpci_tag": "CPCI",
+    "cpci_desc": "ICAROB 2019",
+    "chn_name": "实验室实时监测装置的设计",
+    "chn_tag": "中文期刊",
+    "chn_desc": "《数字化用户》"
+  },
+  "projects": {
+    "title": "我的项目",
+    "github": "开源部分可以到 <a href=\"https://github.com/noahziheng\" style=\"text-decoration: none;color: #2c3e50b5;\">我的 Github</a> 查看，欢迎 Follow",
+    "private": "或者可以到 <a href=\"https://blog.noahgao.net/\" style=\"text-decoration: none;color: #2c3e50b5;\">这里</a> 看到包括大学期间私有项目的一个简表～"
+  }
+}

@@ -1,5 +1,6 @@
-{
+ {
   "compilerOptions": {
+    "strictFunctionTypes": false,
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -9,7 +10,9 @@
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
     "sourceMap": true,
+    "outDir": "generated",
     "baseUrl": ".",
     "types": [
       "webpack-env"

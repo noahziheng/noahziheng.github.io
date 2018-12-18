@@ -1,0 +1,39 @@
+{
+  "name": "Noah Gao",
+  "name_sub": "高梓恒",
+  "desc": "A Web and IoT Developer",
+  "aboutme": "About Me",
+  "tip_weixin": "Follow me on WeChat.",
+  "lost": "You're lost!",
+  "wait": "Wait a moment plz~",
+  "education": {
+    "title": "Education",
+    "tust_name": "Tianjin University of Science and Technology",
+    "tust_desc": "Undergraduate, Major is Automation"
+  },
+  "work": {
+    "title": "Work",
+    "ali_name": "Alibaba Group",
+    "ali_desc": "Front-End Developer, Tmall Technoloy",
+    "ali_tag": "Future",
+    "xcf_name": "Xiachufang Technology",
+    "xcf_desc": "Front-End Developer Intern",
+    "xcf_tag": "Working",
+    "ali_intern_name": "Alibaba Group",
+    "ali_intern_desc": "Front-End Developer Intern, Tmall Technoloy"
+  },
+  "paper": {
+    "title": "Paper",
+    "cpci_name": "Case Study on Communication between Embedded Linux Environment and Micro-controller",
+    "cpci_tag": "CPCI",
+    "cpci_desc": "ICAROB 2019",
+    "chn_name": "实验室实时监测装置的设计",
+    "chn_tag": "Chinese periodical",
+    "chn_desc": "《数字化用户》"
+  },
+  "projects": {
+    "title": "Projects",
+    "github": "Follow me on <a href=\"https://github.com/noahziheng\" style=\"text-decoration: none;color: #2c3e50b5;\">my Github</a>",
+    "private": "Or read the <a href=\"https://blog.noahgao.net/projects-archives\" style=\"text-decoration: none;color: #2c3e50b5;\">simple list</a>, it includes some private projects by my college"
+  }
+}
