@@ -2,6 +2,8 @@
 
 My personal page, created by Vue.js.
 
+[![Build Status](https://travis-ci.com/noahziheng/noahziheng.github.io.png?branch=master)](https://travis-ci.com/noahziheng/noahziheng.github.io})
+
 ## Project setup
 ```
 yarn install

@@ -5,5 +5,16 @@ script: yarn build
 before_install:
   - openssl aes-256-cbc -K $encrypted_b68f2d47b480_key -iv $encrypted_b68f2d47b480_iv -in id_tencent_cloud.enc -out ~\/.ssh/id_tencent_cloud -d
   - chmod 600 ~/.ssh/id_tencent_cloud
+deploy:
+  provider: pages
+  local-dir: dist
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
+
+after_deploy: ssh ubuntu@188.131.177.41 "~/projects/deploy-page"
+
 addons:
   ssh_known_hosts: 188.131.177.41
