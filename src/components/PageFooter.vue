@@ -16,7 +16,6 @@ export default class PageFooter extends Vue {}
 <style lang="scss" scoped>
 .footer {
   width: 100%;
-  background-color: #fff;
   p {
     line-height: 1;
     font-size: 0.5em;
