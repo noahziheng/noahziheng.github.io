@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <p>© 2018 | Design by <a href="/">Noah Gao</a></p>
+    <p>♥ Built with Love</p>
     <p><a href="http://www.miitbeian.gov.cn/">津ICP备16007205号</a></p>
     <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010302001093">津公网安备 12010302001093号</a></p>
   </div>
@@ -17,8 +17,10 @@ export default class PageFooter extends Vue {}
 .footer {
   width: 100%;
   p {
+    font-family: "Lucida Grande", "Helvetica Neue", Calibri, sans-serif;
     line-height: 1;
-    font-size: 0.5em;
+    font-size: 0.6em;
+    color: #ccc;
   }
   a {
     text-decoration: none;
