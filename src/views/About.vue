@@ -53,14 +53,13 @@ export default class About extends Vue {
           logo: ALiLogo,
           title: 'work.ali_name',
           date: '2019.7-',
-          tag: 'work.ali_tag',
+          tag: 'work.future_tag',
           desc: 'work.ali_desc',
         },
         {
           logo: XCFLogo,
           title: 'work.xcf_name',
-          date: '2018.10-',
-          tag: 'work.xcf_tag',
+          date: '2018.10-2019.3',
           desc: 'work.xcf_desc',
         },
         {

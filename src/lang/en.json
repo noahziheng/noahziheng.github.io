@@ -12,13 +12,13 @@
     "tust_desc": "Undergraduate, Major is Automation"
   },
   "work": {
+    "future_tag": "Future",
+    "working_tag": "Working",
     "title": "Work",
     "ali_name": "Alibaba Group",
     "ali_desc": "Front-End Developer, Tmall Technoloy",
-    "ali_tag": "Future",
     "xcf_name": "Xiachufang Technology",
     "xcf_desc": "Front-End Developer Intern",
-    "xcf_tag": "Working",
     "ali_intern_name": "Alibaba Group",
     "ali_intern_desc": "Front-End Developer Intern, Tmall Technoloy"
   },
