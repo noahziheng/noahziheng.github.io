@@ -34,7 +34,7 @@ jobs:
       - name: Deploy to ECS on Zhangjiakou
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd ~/projects/noah-page/ && git pull
+          command: cd ~/projects/noah-page/ && git pull --allow-unrelated-histories
           host: ${{ secrets.HOST_ECS_ZJK }}
           username: noah
           privateKey: ${{ secrets.PRIVATE_KEY_ECS_ZJK}}
