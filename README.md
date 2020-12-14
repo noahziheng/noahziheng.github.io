@@ -2,7 +2,7 @@
 
 My personal page, created by Vue.js.
 
-[![Build Status](https://travis-ci.com/noahziheng/noahziheng.github.io.png?branch=master)](https://travis-ci.com/noahziheng/noahziheng.github.io})
+[![Build Status](https://github.com/noahziheng/noahziheng.github.io/workflows/Noah%20Personal%20Page%20CI/badge.svg)](https://github.com/noahziheng/noahziheng.github.io/actions?query=workflow%3A%22Noah+Personal+Page+CI%22)
 
 ## Project setup
 
