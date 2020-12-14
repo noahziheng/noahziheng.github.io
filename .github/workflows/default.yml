@@ -29,12 +29,14 @@ jobs:
         with:
           target_branch: master
           build_dir: dist
+          keep_history: true
+          fqdn: noahgao.net
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to ECS on Zhangjiakou
         uses: garygrossgarten/github-action-ssh@release
         with:
-          command: cd ~/projects/noah-page/ && git pull --allow-unrelated-histories
+          command: cd ~/projects/noah-page/ && git pull
           host: ${{ secrets.HOST_ECS_ZJK }}
           username: noah
           privateKey: ${{ secrets.PRIVATE_KEY_ECS_ZJK}}
