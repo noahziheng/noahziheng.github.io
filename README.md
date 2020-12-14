@@ -5,29 +5,35 @@ My personal page, created by Vue.js.
 [![Build Status](https://travis-ci.com/noahziheng/noahziheng.github.io.png?branch=master)](https://travis-ci.com/noahziheng/noahziheng.github.io})
 
 ## Project setup
-```
-yarn install
+
+```shell
+npm install
 ```
 
 ### Compiles and hot-reloads for development
-```
-yarn run serve
+
+```shell
+npm run serve
 ```
 
 ### Compiles and minifies for production
-```
-yarn run build
+
+```shell
+npm run build
 ```
 
 ### Run your tests
-```
-yarn run test
+
+```shell
+npm test
 ```
 
 ### Lints and fixes files
-```
-yarn run lint
+
+```shell
+npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
