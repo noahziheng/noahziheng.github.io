@@ -41,4 +41,12 @@ jobs:
           host: ${{ secrets.HOST_ECS_ZJK }}
           username: noah
           privateKey: ${{ secrets.PRIVATE_KEY_ECS_ZJK}}
+      - name: Deploy to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+            accessKeyId: ${{ secrets.OSS_AK }}
+            accessKeySecret: ${{ secrets.OSS_SK }}
+            bucket: noah-page
+            endpoint: oss-cn-zhangjiakou.aliyuncs.com
+            folder: dist
 
