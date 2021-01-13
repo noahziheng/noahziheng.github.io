@@ -23,7 +23,6 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
-      - run: cp nginx.conf dist/
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
@@ -49,4 +48,5 @@ jobs:
             bucket: noah-page
             endpoint: oss-cn-zhangjiakou.aliyuncs.com
             folder: dist
+            skipSetting: false
 
