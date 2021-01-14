@@ -52,7 +52,7 @@ export default class About extends Vue {
         {
           logo: ALiLogo,
           title: 'work.ali_name',
-          date: '2019.7-', 
+          date: '2019.7-',
           tag: 'work.working_tag',
           desc: 'work.ali_desc',
         },

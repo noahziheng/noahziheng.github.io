@@ -47,11 +47,11 @@ export default class WebsiteNav extends Vue {
       icon: 'juejin',
       href: 'https://juejin.im/user/583bdbf1a22b9d006c1514f8',
     },
-    {
-      icon_prefix: 'fas',
-      icon: 'archive',
-      href: 'https://blog.noahgao.net',
-    },
+    // {
+    //   icon_prefix: 'fas',
+    //   icon: 'archive',
+    //   href: 'https://blog.noahgao.net',
+    // },
     {
       icon: 'weibo',
       href: 'https://weibo.com/noah1719',
