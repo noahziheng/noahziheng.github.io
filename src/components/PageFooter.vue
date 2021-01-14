@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     <p>♥ Built with Love</p>
-    <p><a href="http://www.beian.miit.gov.cn">津ICP备16007205号</a></p>
-    <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010302001093">津公网安备 12010302001093号</a></p>
+    <p><a href="https://beian.miit.gov.cn">津ICP备16007205号-1</a></p>
+    <p><a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=12010302001093">津公网安备 12010302001093号</a></p>
   </div>
 </template>
 
