@@ -10,10 +10,10 @@
           to="/about">
           <button class="about-btn">{{ $t('aboutme') }}</button>
         </router-link>
-        <router-link
-          to="/about">
+        <a
+          href="https://blog.noahgao.net">
           <button class="blogentry-btn">{{ $t('blogentry') }}</button>
-        </router-link>
+        </a>
       </div>
       <website-nav></website-nav>
     </div>
