@@ -34,7 +34,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to OSS
-        uses: fangbinwei/aliyun-oss-website-action@v1
+        uses: fangbinwei/aliyun-oss-website-action@v1.2.2
         with:
             accessKeyId: ${{ secrets.OSS_AK }}
             accessKeySecret: ${{ secrets.OSS_SK }}
