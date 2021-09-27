@@ -10,12 +10,7 @@
         :key="j"
         class="item-block">
         <img
-          v-if="item.logo && item.svg"
-          class="item-logo"
-          :src="item.logo"
-		  svg-inline>
-        <img
-          v-if="item.logo && !item.svg"
+          v-if="item.logo"
           class="item-logo"
           :src="item.logo">
         <div class="item-detail">
@@ -36,7 +31,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import TUSTLogo from '../assets/about/tust.png';
 import ALiLogo from '../assets/about/ali.png';
 import XCFLogo from '../assets/about/xcf.png';
-import BDLogo from '../assets/about/bytedance.svg';
+import BDLogo from '../assets/about/bytedance.png';
 
 @Component({})
 export default class About extends Vue {
@@ -57,7 +52,6 @@ export default class About extends Vue {
       items: [
         {
           logo: BDLogo,
-		  svg: true,
           title: 'work.bytedance_name',
           date: '2021.8-',
           tag: 'work.working_tag',
