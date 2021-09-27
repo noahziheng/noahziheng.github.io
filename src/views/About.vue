@@ -164,7 +164,7 @@ export default class About extends Vue {
       align-items: center;
       justify-content: center;
       .item-logo {
-        margin-right: 10px;
+        margin-right: 18px;
       }
       .item-detail {
         display: flex;
