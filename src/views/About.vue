@@ -10,10 +10,14 @@
         :key="j"
         class="item-block">
         <img
-          v-if="item.logo"
+          v-if="item.logo && item.svg"
           class="item-logo"
           :src="item.logo"
-		  :svg-inline="item.svg">
+		  svg-inline>
+        <img
+          v-if="item.logo && !item.svg"
+          class="item-logo"
+          :src="item.logo">
         <div class="item-detail">
           <span class="item-title" v-html="$t(item.title)"></span>
           <span class="item-date" v-if="item.date">{{ item.date }}</span>
