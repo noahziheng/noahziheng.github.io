@@ -12,7 +12,8 @@
         <img
           v-if="item.logo"
           class="item-logo"
-          :src="item.logo">
+          :src="item.logo"
+		  :svg-inline="item.svg">
         <div class="item-detail">
           <span class="item-title" v-html="$t(item.title)"></span>
           <span class="item-date" v-if="item.date">{{ item.date }}</span>
@@ -52,6 +53,7 @@ export default class About extends Vue {
       items: [
         {
           logo: BDLogo,
+		  svg: true,
           title: 'work.bytedance_name',
           date: '2021.8-',
           tag: 'work.working_tag',
