@@ -31,6 +31,7 @@ import { Component, Vue } from 'vue-property-decorator';
 import TUSTLogo from '../assets/about/tust.png';
 import ALiLogo from '../assets/about/ali.png';
 import XCFLogo from '../assets/about/xcf.png';
+import BDLogo from '../assets/about/bytedance.svg';
 
 @Component({})
 export default class About extends Vue {
@@ -50,10 +51,16 @@ export default class About extends Vue {
       title: 'work.title',
       items: [
         {
+          logo: BDLogo,
+          title: 'work.bytedance_name',
+          date: '2021.8-',
+          tag: 'work.working_tag',
+          desc: 'work.bytedance_desc',
+        },
+        {
           logo: ALiLogo,
           title: 'work.ali_name',
-          date: '2019.7-',
-          tag: 'work.working_tag',
+          date: '2019.7-2021.8',
           desc: 'work.ali_desc',
         },
         {

@@ -16,12 +16,14 @@
     "future_tag": "Future",
     "working_tag": "Working",
     "title": "Work",
+    "bytedance_name": "字节跳动",
+    "bytedance_desc": "Web Developer(Node.js), IES Infra",
     "ali_name": "Alibaba Group",
-    "ali_desc": "Front-End Developer, Tao-Technoloy",
+    "ali_desc": "Senior Web Developer, Tao-Technoloy",
     "xcf_name": "Xiachufang Technology",
-    "xcf_desc": "Front-End Developer Intern",
+    "xcf_desc": "Web Developer Intern",
     "ali_intern_name": "Alibaba Group",
-    "ali_intern_desc": "Front-End Developer Intern, Tmall Technoloy"
+    "ali_intern_desc": "Web Developer Intern, Tmall Technoloy"
   },
   "paper": {
     "title": "Paper",
