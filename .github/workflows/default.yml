@@ -30,7 +30,6 @@ jobs:
           target_branch: master
           build_dir: dist
           keep_history: true
-          fqdn: noahgao.tech
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy to OSS
