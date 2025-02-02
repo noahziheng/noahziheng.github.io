@@ -47,3 +47,12 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Deploy to OSS
+        uses: fangbinwei/aliyun-oss-website-action@v1
+        with:
+            accessKeyId: ${{ secrets.OSS_AK }}
+            accessKeySecret: ${{ secrets.OSS_SK }}
+            bucket: noah-page
+            endpoint: oss-cn-zhangjiakou.aliyuncs.com
+            folder: dist
+            skipSetting: false
